@@ -3,129 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professionele Huisstijlgalerij</title>
+<title>StyleHub</title>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<style>
-body {
-  margin:0;
-  font-family: 'Ubuntu', sans-serif;
-  background: linear-gradient(160deg, #f0f4f8, #d9e2ec);
-}
-header {
-  background: #1a1a1a;
-  color: #fff;
-  padding: 1.5rem;
-  text-align:center;
-  font-size: 1.8rem;
-  font-weight:bold;
-  letter-spacing: 1px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-}
-.grid {
-  display:grid;
-  gap:1.5rem;
-  padding:2rem;
-  grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
-}
-.card {
-  background:white;
-  border-radius:15px;
-  overflow:hidden;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-  cursor:pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
-  text-align:center;
-  padding:1rem;
-}
-.card:hover { 
-  transform: translateY(-8px); 
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-}
-.card img { max-width:100px; margin:15px auto; border-radius:8px; display:block;}
-.card .title { 
-  font-weight:700; 
-  font-size:1.3rem; 
-  margin-bottom:0.3rem; 
-  color:#222;
-}
-.card .subtitle {
-  font-weight:400;
-  font-size:0.95rem;
-  color:#666;
-}
-
-.modal {
-  display:none;
-  position:fixed;
-  top:0; left:0;
-  width:100%; height:100%;
-  backdrop-filter: blur(6px);
-  background: rgba(0,0,0,0.6);
-  justify-content:center;
-  align-items:center;
-  padding:1rem;
-}
-.modal-content {
-  background:white;
-  border-radius:12px;
-  max-width:750px;
-  width:100%;
-  padding:2rem;
-  position:relative;
-  max-height:90vh;
-  overflow-y:auto;
-  font-family: 'Ubuntu', sans-serif;
-}
-.close {
-  position:absolute;
-  top:10px; right:15px;
-  font-size:28px;
-  cursor:pointer;
-}
-.modal-header {
-  display:flex;
-  align-items:center;
-  gap:1rem;
-  margin-bottom:1rem;
-}
-.modal-header img { width:60px; height:60px; object-fit:contain;}
-.modal-header h2 { margin:0; font-size:1.6rem;}
-
-.download-full {
-  display:flex; align-items:center; gap:0.5rem;
-  cursor:pointer;
-  color:white; border:none;
-  padding:0.6rem 1.2rem; border-radius:6px;
-  font-size:14px;
-  margin-bottom:1.2rem;
-  transition: background 0.3s;
-}
-
-.section { margin-bottom:1.5rem;}
-.section h3 { margin-bottom:0.5rem; border-bottom:1px solid #ddd; padding-bottom:0.3rem;}
-
-.logos-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(80px,1fr)); gap:0.5rem;}
-.logo-card { background:#f0f0f0; border-radius:8px; padding:0.5rem; position:relative; text-align:center;}
-.logo-card img { width:60px; height:60px; object-fit:contain; margin-bottom:0.3rem;}
-.logo-card .download-icon { position:absolute; top:5px; right:5px; cursor:pointer; font-size:18px; color:#333;}
-
-.font-list { list-style-type: disc; padding-left:20px; font-family: 'Ubuntu Mono', monospace; }
-.font-list li { display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem; }
-.font-list li .download-icon { cursor:pointer; font-size:18px; color:#333; }
-
-.color-card { display:flex; align-items:center; gap:0.5rem; background:#f0f0f0; padding:0.3rem 0.5rem; border-radius:6px; width:fit-content; margin-bottom:0.3rem;}
-.color-circle { width:20px; height:20px; border-radius:50%; border:1px solid #999;}
-.color-card .copy-icon { cursor:pointer; font-size:18px; color:#333; margin-left:0.5rem; transition: transform 0.2s, color 0.2s;}
-.color-card .copy-icon.copied { color:#4CAF50; transform: scale(1.2);}
-</style>
+<link rel="icon" href="source/icon.svg">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header><h1>Professionele Huisstijlgalerij</h1></header>
-
+<header>
+  <img class="header-icon" src="source/icon.svg" draggable="false">
+  <h1>tyleHub</h1>
+   <a href="https://github.com/your-repo" target="_blank" class="github-link" aria-label="GitHub">
+    <svg fill="#ffffff" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"/>
+    </svg>
+  </a>
+</header>
 <div class="grid" id="grid"></div>
-
 <div class="modal" id="modal">
   <div class="modal-content">
     <span class="close" id="modalClose">&times;</span>
@@ -155,84 +49,6 @@ header {
 
   </div>
 </div>
-
-<script>
-fetch('partijen.json')
-.then(r=>r.json())
-.then(parties=>{
-  const grid=document.getElementById('grid');
-  const modal=document.getElementById('modal');
-  const modalClose=document.getElementById('modalClose');
-  const modalIcon=document.getElementById('modalIcon');
-  const modalName=document.getElementById('modalName');
-  const downloadFull=document.getElementById('downloadFull');
-  const logosGrid=document.getElementById('logosGrid');
-  const fontsList=document.getElementById('fontsList');
-  const colorsGrid=document.getElementById('colorsGrid');
-
-  parties.forEach(p=>{
-    const card=document.createElement('div');
-    card.className='card';
-    card.innerHTML=`<img src="${p.icon}"><div class="title">${p.abbr}</div>`;
-    card.addEventListener('click', ()=>{
-      modalIcon.src=p.icon;
-      modalName.textContent=p.abbr + (p.undertitle==='yes' && p.undertitleText ? ' - '+p.undertitleText : '');
-      downloadFull.style.background = p.primaryColor;
-      downloadFull.onclick=()=>{window.open(p.downloadFull,'_blank')};
-
-      // Logos
-      logosGrid.innerHTML='';
-      if(p.logos){
-        p.logos.forEach(l=>{
-          const div=document.createElement('div');
-          div.className='logo-card';
-          div.innerHTML=`<img src="${l.logo}"><span class="material-icons download-icon" title="Download">&#xe2c4;</span>`;
-          div.querySelector('.download-icon').onclick=e=>{e.stopPropagation(); window.open(l.download,'_blank');};
-          logosGrid.appendChild(div);
-        });
-      }
-
-      // Fonts
-      fontsList.innerHTML='';
-      if(p.fonts){
-        p.fonts.forEach(f=>{
-          const li=document.createElement('li');
-          li.innerHTML=`<span>${f.name}</span><span class="material-icons download-icon">&#xe2c4;</span>`;
-          li.querySelector('.download-icon').onclick=e=>{e.stopPropagation(); window.open(f.download,'_blank');};
-          fontsList.appendChild(li);
-        });
-      }
-
-      // Colors
-      colorsGrid.innerHTML='';
-      if(p.colors){
-        p.colors.forEach(c=>{
-          const div=document.createElement('div');
-          div.className='color-card';
-          div.innerHTML=`<div class="color-circle" style="background:${c.hex}"></div><span>${c.hex}</span><span class="material-icons copy-icon" title="Kopieer">content_copy</span>`;
-          const copyBtn = div.querySelector('.copy-icon');
-          copyBtn.onclick=e=>{
-            navigator.clipboard.writeText(c.hex);
-            copyBtn.classList.add('copied');
-            copyBtn.innerHTML = 'check';
-            setTimeout(()=>{
-              copyBtn.classList.remove('copied');
-              copyBtn.innerHTML = 'content_copy';
-            },2000);
-          };
-          colorsGrid.appendChild(div);
-        });
-      }
-
-      modal.style.display='flex';
-    });
-    grid.appendChild(card);
-  });
-
-  modalClose.onclick=()=>modal.style.display='none';
-  window.onclick=e=>{if(e.target===modal)modal.style.display='none';};
-})
-.catch(console.error);
-</script>
+<script src="app.js"></script>
 </body>
 </html>
