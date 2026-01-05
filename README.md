@@ -1,4 +1,4 @@
-<a href="#">
+<a href="stylehub.mnsmi.me">
   <img src="source/logo.svg" alt="StyleHub logo" width="30%">
 </a>
 <br>
