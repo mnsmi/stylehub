@@ -9,7 +9,7 @@
       {"logo": "source/50PLUS/Logo/logo.svg", "download": "Github"}
     ],
     "fonts": [
-      {"name": "Entypo Fontello", "download": "#"}
+      {"name": "Entypo Fontello", "download": "https://raw.githubusercontent.com/mnsmi/stylehub/main/source/50PLUS/Lettertypen/entypo-fontello.ttf"}
     ],
     "colors": [
       {"hex": "#943589"},
@@ -289,3 +289,4 @@
     ]
   }
 ]
+
