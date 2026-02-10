@@ -1,51 +1,88 @@
 [
-  {
-    "abbr": "50PLUS",
-    "undertitle": "no",
-    "primaryColor": "#943589",
-    "icon": "source/50PLUS/Logo/logo.svg",
-    "downloadFull": "GITHUB",
+    {
+    "abbr": "D66",
+    "undertitle": "yes",
+    "undertitleText": "Democraten 66",
+    "primaryColor": "#1A9132",
+    "icon": "source/D66/logo/logo.svg",
+    "downloadFull": "#",
     "logos": [
-      {"logo": "source/50PLUS/Logo/logo.svg", "download": "Github"}
+      {"logo": "source/D66/logo/logo.svg", "download": "#"}
     ],
     "fonts": [
-      {"name": "Entypo Fontello", "download": "https://raw.githubusercontent.com/mnsmi/stylehub/main/source/50PLUS/Lettertypen/entypo-fontello.ttf"}
+      {"name": "Roboto", "download": "#"}
     ],
     "colors": [
-      {"hex": "#943589"},
-      {"hex": "#FFFFFF"}
+      {"hex": "#1A9132"}
     ]
   },
-  {
-    "abbr": "BBB",
+    {
+    "abbr": "VVD",
     "undertitle": "yes",
-    "undertitleText": "BoerBurgerBeweging",
-    "primaryColor": "#93C01F",
-    "icon": "source/BBB/Logo/logo.svg",
+    "undertitleText": "Volkspartij voor Vrijheid en Democratie",
+    "primaryColor": "#FF6400",
+    "icon": "source/VVD/logo/PNG/logo.png",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/BBB/Logo/logo.svg", "download": "Github"},
-      {"logo": "source/BBB/Logo/icon.svg", "download": "#"}
+      {"logo": "source/VVD/logo/SVG/logo.svg", "download": "Github"}
     ],
     "fonts": [
-      {"name": "Gotham Light", "download": "#"},
-      {"name": "Gotham Bold", "download": "#"}
+      {"name": "Aeonik Medium", "download": "#"},
+      {"name": "Aeonik Bold", "download": ""}
     ],
     "colors": [
-      {"hex": "#93C01F"},
+      {"hex": "#005BAC"},
       {"hex": "#FF6600"}
     ]
   },
-
+    {
+    "abbr": "GL-PvdA",
+    "undertitle": "yes",
+    "undertitleText": "GroenLinks-Partij van de Arbeid",
+    "primaryColor": "#000000",
+    "icon": "source/GLPVDA/logo/GL-PvdA-logo.svg",
+    "downloadFull": "GITHUB",
+    "logos": [
+      {"logo": "source/GLPVDA/logo/GL-PvdA-logo.svg", "download": "Github"}
+    ],
+    "fonts": [
+      {"name": "Font", "download": "#"},
+      {"name": "Font", "download": ""}
+    ],
+    "colors": [
+      {"hex": "#000000"},
+      {"hex": "#ffffff"}
+    ]
+  },
+    {
+    "abbr": "PVV",
+    "undertitle": "yes",
+    "undertitleText": "Partij voor de Vrijheid",
+    "primaryColor": "#000000",
+    "icon": "source/PVV/logo/icon.svg",
+    "downloadFull": "GITHUB",
+    "logos": [
+      {"logo": "source/PVV/logo/logo.svg", "download": "Github"}
+    ],
+    "fonts": [
+      {"name": "Font", "download": "#"},
+      {"name": "Font", "download": ""}
+    ],
+    "colors": [
+      {"hex": "#E4032E"},
+      {"hex": "#ffffff"},
+      {"hex": "#22324B"}
+    ]
+  },
     {
     "abbr": "CDA",
     "undertitle": "yes",
     "undertitleText": "Christelijk Democratisch Appél",
     "primaryColor": "#2CC84D",
-    "icon": "source/CDA/Logo/logo.svg",
+    "icon": "source/CDA/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/CDA/Logo/logo.svg", "download": "Github"}
+      {"logo": "source/CDA/logo/logo.svg", "download": "Github"}
     ],
     "fonts": [
       {"name": "Montserrat Black", "download": "#"},
@@ -57,73 +94,34 @@
       {"hex": "#3C415D"}
     ]
   },
-  {
-    "abbr": "ChristenUnie",
+    {
+    "abbr": "JA21",
     "undertitle": "no",
-    "primaryColor": "#202852",
-    "icon": "source/ChristenUnie/Logo/logo.svg",
+    "primaryColor": "#293785",
+    "icon": "source/JA21/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/ChristenUnie/Logo/logo.svg", "download": ""},
-      {"logo": "source/ChristenUnie/Logo/logo_liggend.svg", "download": ""},
-      {"logo": "source/ChristenUnie/Logo/logo_liggend_white.svg", "download": ""}
+      {"logo": "source/partij/logo/logo.svg", "download": "Github"}
     ],
     "fonts": [
-      {"name": "Proxima Nova Bold", "download": "#"},
-      {"name": "Merriweather Light", "download": ""}
+      {"name": "Barlow Latin Regular", "download": "Github"}
     ],
     "colors": [
-      {"hex": "#202852"},
-      {"hex": "#00C4F0"},
-      {"hex": "#FFFCF3"}
+      {"hex": "#242b57"},
+      {"hex": "#df201a"},
+      {"hex": "#293785"}
     ]
   },
-  {
-    "abbr": "D66",
-    "undertitle": "yes",
-    "undertitleText": "Democraten 66",
-    "primaryColor": "#1A9132",
-    "icon": "source/D66/Logo/logo.svg",
-    "downloadFull": "#",
-    "logos": [
-      {"logo": "source/D66/Logo/logo.svg", "download": "#"}
-    ],
-    "fonts": [
-      {"name": "Roboto", "download": "#"}
-    ],
-    "colors": [
-      {"hex": "#1A9132"}
-    ]
-  },
-      {
-    "abbr": "DENK",
-    "undertitle": "no",
-    "primaryColor": "#00b7b2",
-    "icon": "source/DENK/Logo/logo.svg",
-    "downloadFull": "GITHUB",
-    "logos": [
-      {"logo": "source/DENK/Logo/logo.svg", "download": "Github"},
-      {"logo": "source/DENK/Logo/logo2.svg", "download": "Github"}  
-    ],
-    "fonts": [
-      {"name": "UniSans Heavy", "download": "#"},
-      {"name": "UniSans Heavy Caps", "download": ""}
-    ],
-    "colors": [
-      {"hex": "#00b7b2"},
-      {"hex": "#ffffff"}
-    ]
-  },
-      {
+    {
     "abbr": "FVD",
     "undertitle": "yes",
     "undertitleText": "Forum voor Democratie",
     "primaryColor": "#a5191c",
-    "icon": "source/FVD/Logo/icon.svg",
+    "icon": "source/FVD/logo/icon.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/FVD/Logo/logo.svg", "download": "Github"},
-      {"logo": "source/FVD/Logo/icon.svg", "download": "Github"}
+      {"logo": "source/FVD/logo/logo.svg", "download": "Github"},
+      {"logo": "source/FVD/logo/icon.svg", "download": "Github"}
     ],
     "fonts": [
       {"name": "Gotham Bold", "download": "#"},
@@ -136,31 +134,52 @@
       {"hex": "#ffffff"}
     ]
   },
-    {
-    "abbr": "GL-PvdA",
+
+  {
+    "abbr": "BBB",
     "undertitle": "yes",
-    "undertitleText": "GroenLinks-Partij van de Arbeid",
-    "primaryColor": "#000000",
-    "icon": "source/GLPVDA/Logo/GL-PvdA-logo.svg",
+    "undertitleText": "BoerBurgerBeweging",
+    "primaryColor": "#93C01F",
+    "icon": "source/BBB/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/GLPVDA/Logo/GL-PvdA-logo.svg", "download": "Github"}
+      {"logo": "source/BBB/logo/logo.svg", "download": "Github"},
+      {"logo": "source/BBB/logo/icon.svg", "download": "#"}
     ],
     "fonts": [
-      {"name": "Font", "download": "#"},
-      {"name": "Font", "download": ""}
+      {"name": "Gotham Light", "download": "#"},
+      {"name": "Gotham Bold", "download": "#"}
     ],
     "colors": [
-      {"hex": "#000000"},
+      {"hex": "#93C01F"},
+      {"hex": "#FF6600"}
+    ]
+  },
+    {
+    "abbr": "DENK",
+    "undertitle": "no",
+    "primaryColor": "#00b7b2",
+    "icon": "source/DENK/logo/logo.svg",
+    "downloadFull": "GITHUB",
+    "logos": [
+      {"logo": "source/DENK/logo/logo.svg", "download": "Github"},
+      {"logo": "source/DENK/logo/logo2.svg", "download": "Github"}  
+    ],
+    "fonts": [
+      {"name": "UniSans Heavy", "download": "#"},
+      {"name": "UniSans Heavy Caps", "download": ""}
+    ],
+    "colors": [
+      {"hex": "#00b7b2"},
       {"hex": "#ffffff"}
     ]
   },
-  {
+    {
     "abbr": "SGP",
     "undertitle": "yes",
     "undertitleText": "Staatkundig Gereformeerde Partij",
     "primaryColor": "#E95E10",
-    "icon": "source/SGP/Logo/PNG/Logo_oranje.png",
+    "icon": "source/SGP/logo/PNG/logo_oranje.png",
     "downloadFull": "GITHUB",
     "logos": [
       {"logo": "https://upload.wikimedia.org/wikipedia/commons/6/63/SGP_logo_%282016%E2%80%93present%29.svg", "download": "https://upload.wikimedia.org/wikipedia/commons/6/63/SGP_logo_%282016%E2%80%93present%29.svg?download"}
@@ -174,34 +193,55 @@
       {"hex": "#084686"}
     ]
   },
-  {
-    "abbr": "VVD",
+    {
+    "abbr": "PvdD",
     "undertitle": "yes",
-    "undertitleText": "Volkspartij voor Vrijheid en Democratie",
-    "primaryColor": "#FF6400",
-    "icon": "source/VVD/Logo/PNG/logo.png",
+    "undertitleText": "Partij voor de Dieren",
+    "primaryColor": "#000000",
+    "icon": "source/PvdD/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/VVD/Logo/SVG/logo.svg", "download": "Github"}
+      {"logo": "source/PvdD/logo/logo.svg", "download": "Github"}
     ],
     "fonts": [
-      {"name": "Aeonik Medium", "download": "#"},
-      {"name": "Aeonik Bold", "download": ""}
+      {"name": "Font", "download": "#"},
+      {"name": "Font", "download": ""}
     ],
     "colors": [
-      {"hex": "#005BAC"},
-      {"hex": "#FF6600"}
+      {"hex": "#000000"},
+      {"hex": "#ffffff"}
     ]
   },
-      {
-    "abbr": "Naam",
-    "undertitle": "yes",
-    "undertitleText": "Ondertitel",
-    "primaryColor": "#000000",
-    "icon": "source/partij/Logo/logo.svg",
+    {
+    "abbr": "ChristenUnie",
+    "undertitle": "no",
+    "primaryColor": "#202852",
+    "icon": "source/ChristenUnie/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/partij/Logo/logo.svg", "download": "Github"}
+      {"logo": "source/ChristenUnie/logo/logo.svg", "download": ""},
+      {"logo": "source/ChristenUnie/logo/logo_liggend.svg", "download": ""},
+      {"logo": "source/ChristenUnie/logo/logo_liggend_white.svg", "download": ""}
+    ],
+    "fonts": [
+      {"name": "Proxima Nova Bold", "download": "#"},
+      {"name": "Merriweather Light", "download": ""}
+    ],
+    "colors": [
+      {"hex": "#202852"},
+      {"hex": "#00C4F0"},
+      {"hex": "#FFFCF3"}
+    ]
+  },
+    {
+    "abbr": "SP",
+    "undertitle": "yes",
+    "undertitleText": "Socialistische Partij",
+    "primaryColor": "#000000",
+    "icon": "source/partij/logo/logo.svg",
+    "downloadFull": "GITHUB",
+    "logos": [
+      {"logo": "source/partij/logo/logo.svg", "download": "Github"}
     ],
     "fonts": [
       {"name": "Font", "download": "#"},
@@ -213,14 +253,30 @@
     ]
   },
       {
-    "abbr": "Naam",
-    "undertitle": "yes",
-    "undertitleText": "Ondertitel",
-    "primaryColor": "#000000",
-    "icon": "source/partij/Logo/logo.svg",
+    "abbr": "50PLUS",
+    "undertitle": "no",
+    "primaryColor": "#943589",
+    "icon": "source/50PLUS/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/partij/Logo/logo.svg", "download": "Github"}
+      {"logo": "source/50PLUS/logo/logo.svg", "download": "Github"}
+    ],
+    "fonts": [
+      {"name": "Entypo Fontello", "download": "#"}
+    ],
+    "colors": [
+      {"hex": "#943589"},
+      {"hex": "#FFFFFF"}
+    ]
+  },
+        {
+    "abbr": "Volt",
+    "undertitle": "no",
+    "primaryColor": "#000000",
+    "icon": "source/partij/logo/logo.svg",
+    "downloadFull": "GITHUB",
+    "logos": [
+      {"logo": "source/partij/logo/logo.svg", "download": "Github"}
     ],
     "fonts": [
       {"name": "Font", "download": "#"},
@@ -231,53 +287,15 @@
       {"hex": "#ffffff"}
     ]
   },
-      {
-    "abbr": "Naam",
+    {
+    "abbr": "Groep Markuszower",
     "undertitle": "yes",
     "undertitleText": "Ondertitel",
     "primaryColor": "#000000",
-    "icon": "source/partij/Logo/logo.svg",
+    "icon": "source/partij/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/partij/Logo/logo.svg", "download": "Github"}
-    ],
-    "fonts": [
-      {"name": "Font", "download": "#"},
-      {"name": "Font", "download": ""}
-    ],
-    "colors": [
-      {"hex": "#000000"},
-      {"hex": "#ffffff"}
-    ]
-  },
-      {
-    "abbr": "Naam",
-    "undertitle": "yes",
-    "undertitleText": "Ondertitel",
-    "primaryColor": "#000000",
-    "icon": "source/partij/Logo/logo.svg",
-    "downloadFull": "GITHUB",
-    "logos": [
-      {"logo": "source/partij/Logo/logo.svg", "download": "Github"}
-    ],
-    "fonts": [
-      {"name": "Font", "download": "#"},
-      {"name": "Font", "download": ""}
-    ],
-    "colors": [
-      {"hex": "#000000"},
-      {"hex": "#ffffff"}
-    ]
-  },
-      {
-    "abbr": "Naam",
-    "undertitle": "yes",
-    "undertitleText": "Ondertitel",
-    "primaryColor": "#000000",
-    "icon": "source/partij/Logo/logo.svg",
-    "downloadFull": "GITHUB",
-    "logos": [
-      {"logo": "source/partij/Logo/logo.svg", "download": "Github"}
+      {"logo": "source/partij/logo/logo.svg", "download": "Github"}
     ],
     "fonts": [
       {"name": "Font", "download": "#"},
@@ -289,4 +307,3 @@
     ]
   }
 ]
-
