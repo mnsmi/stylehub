@@ -41,9 +41,11 @@ header {
 }
 
 .contact-link {
+  width: 29px;
+  height: auto;
   position: absolute;
   top: 0.5rem;
-  right: 3.5rem;
+  right: 3.6rem;
   display: flex;
   align-items: center;
   text-decoration: none;

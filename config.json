@@ -5,12 +5,12 @@
     "undertitleText": "Democraten 66",
     "primaryColor": "#1A9132",
     "icon": "source/D66/logo/logo.svg",
-    "downloadFull": "#",
+    "downloadFull": "",
     "logos": [
-      {"logo": "source/D66/logo/logo.svg", "download": "#"}
+      {"logo": "source/D66/logo/logo.svg", "download": "https://raw.githubusercontent.com/mnsmi/stylehub/main/source/D66/logo/logo.svg"}
     ],
     "fonts": [
-      {"name": "Roboto", "download": "#"}
+      {"name": "Inter", "download": "https://raw.githubusercontent.com/mnsmi/stylehub/main/source/D66/fonts/Inter.ttf"}
     ],
     "colors": [
       {"hex": "#1A9132"}
@@ -21,10 +21,12 @@
     "undertitle": "yes",
     "undertitleText": "Volkspartij voor Vrijheid en Democratie",
     "primaryColor": "#FF6400",
-    "icon": "source/VVD/logo/PNG/logo.png",
+    "icon": "source/VVD/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/VVD/logo/SVG/logo.svg", "download": "Github"}
+      {"logo": "source/VVD/logo/logo.svg", "download": "https://raw.githubusercontent.com/mnsmi/stylehub/main/source/VVD/logo/logo.svg"},
+      {"logo": "source/VVD/logo/logo_mono.svg", "download": "https://raw.githubusercontent.com/mnsmi/stylehub/main/source/VVD/logo/logo_mono.svg"},
+      {"logo": "source/VVD/logo/vvd_pijl.svg", "download": "https://raw.githubusercontent.com/mnsmi/stylehub/main/source/VVD/logo/vvd_pijl.svg"}
     ],
     "fonts": [
       {"name": "Aeonik Medium", "download": "#"},
@@ -40,7 +42,7 @@
     "undertitle": "yes",
     "undertitleText": "GroenLinks-Partij van de Arbeid",
     "primaryColor": "#000000",
-    "icon": "source/GLPVDA/logo/GL-PvdA-logo.svg",
+    "icon": "source/GLPVDA/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
       {"logo": "source/GLPVDA/logo/GL-PvdA-logo.svg", "download": "Github"}
@@ -198,10 +200,11 @@
     "undertitle": "yes",
     "undertitleText": "Partij voor de Dieren",
     "primaryColor": "#000000",
-    "icon": "source/PvdD/logo/logo.svg",
+    "icon": "source/PvdD/logo/icon.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "source/PvdD/logo/logo.svg", "download": "Github"}
+      {"logo": "source/PvdD/logo/logo.svg", "download": "Github"},
+      {"logo": "source/PvdD/logo/icon.svg", "download": "Github"}
     ],
     "fonts": [
       {"name": "Font", "download": "#"},
@@ -238,7 +241,7 @@
     "undertitle": "yes",
     "undertitleText": "Socialistische Partij",
     "primaryColor": "#000000",
-    "icon": "source/partij/logo/logo.svg",
+    "icon": "source/SP/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
       {"logo": "source/partij/logo/logo.svg", "download": "Github"}
@@ -273,7 +276,7 @@
     "abbr": "Volt",
     "undertitle": "no",
     "primaryColor": "#000000",
-    "icon": "source/partij/logo/logo.svg",
+    "icon": "source/Volt/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
       {"logo": "source/partij/logo/logo.svg", "download": "Github"}
@@ -289,10 +292,9 @@
   },
     {
     "abbr": "Groep Markuszower",
-    "undertitle": "yes",
-    "undertitleText": "Ondertitel",
+    "undertitle": "no",
     "primaryColor": "#000000",
-    "icon": "source/partij/logo/logo.svg",
+    "icon": "source/Groep%20Markuszower/logo/placeholder.png",
     "downloadFull": "GITHUB",
     "logos": [
       {"logo": "source/partij/logo/logo.svg", "download": "Github"}
