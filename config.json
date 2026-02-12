@@ -181,14 +181,15 @@
     "undertitle": "yes",
     "undertitleText": "Staatkundig Gereformeerde Partij",
     "primaryColor": "#E95E10",
-    "icon": "source/SGP/logo/PNG/logo_oranje.png",
+    "icon": "source/SGP/logo/logo.svg",
     "downloadFull": "GITHUB",
     "logos": [
-      {"logo": "https://upload.wikimedia.org/wikipedia/commons/6/63/SGP_logo_%282016%E2%80%93present%29.svg", "download": "https://upload.wikimedia.org/wikipedia/commons/6/63/SGP_logo_%282016%E2%80%93present%29.svg?download"}
+      {"logo": "source/SGP/logo/logo.svg", "download": ""}
     ],
     "fonts": [
-      {"name": "Paralucent Condensed Bold", "download": "https://raw.githubusercontent.com/mnsmi/persstart/main/src/sgp/Paralucent_Condensed_Bold.otf"},
-      {"name": "Inter", "download": "https://fonts.google.com/specimen/Inter"}
+      {"name": "Paralucent Condensed Bold", "download": "source/SGP/fonts/Paralucent_Condensed_Bold.otf"},
+      {"name": "Inter", "download": "source/SGP/fonts/Inter.ttf"},
+      {"name": "Verveine", "download": "source/SGP/fonts/Verveine.TTF"}
     ],
     "colors": [
       {"hex": "#E95E10"},
@@ -295,17 +296,6 @@
     "undertitle": "no",
     "primaryColor": "#000000",
     "icon": "source/Groep%20Markuszower/logo/placeholder.png",
-    "downloadFull": "GITHUB",
-    "logos": [
-      {"logo": "source/partij/logo/logo.svg", "download": "Github"}
-    ],
-    "fonts": [
-      {"name": "Font", "download": "#"},
-      {"name": "Font", "download": ""}
-    ],
-    "colors": [
-      {"hex": "#000000"},
-      {"hex": "#ffffff"}
-    ]
+    "downloadFull": "source/Groep%20Markuszower/groepmarkuszower.html"
   }
 ]
