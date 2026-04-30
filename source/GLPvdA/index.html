@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>GL-PvdA | StyleHub</title>
+  <link rel="stylesheet" href="../../party.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="../icon.svg">
+  <style>
+    :root {
+      --color1: #01a747;
+      --color2: #d81f27;
+    }
+  </style>
+</head>
+<body>
+<a href="../../index.html">
+  <div class="back-btn">
+    <img src="../back.svg">
+    <b>Terug naar Home</b>
+  </div>
+</a>
+<div class="header-banner" style="background-image:url('banner.jpg'); background-position-y: 35%;"></div>
+<div class="page-card">
+  <div class="page-header">
+    <img src="Logo/GL-PvdA-logo.svg">
+    <h2>GL-PvdA | GroenLinks-Partij van de Arbeid</h2>
+  </div>
+  <a href="download.zip">
+    <button class="download-full-btn" style="background: var(--color1);">
+      <span class="material-icons">folder_zip</span>
+      Volledige huisstijlmap downloaden
+    </button>
+  </a><br>
+  <iframe src="infocard.html" style="width: 430px; height: 280px; border: none;"></iframe>
+  <div class="section">
+    <h3>Logo’s</h3>
+    <div class="logos-grid">
+      <div class="logo-item">
+        <img src="Logo/GL-PvdA-logo.svg">
+        <div class="logo-name">Logo SVG volledig</div>
+        <a href="Logo/GL-PvdA-logo.svg" download="logo.svg" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+      <div class="logo-item">
+        <img src="Logo/GL-PvdA-logo.png">
+        <div class="logo-name">Logo PNG volledig</div>
+        <a href="Logo/GL-PvdA-logo.png" download="logo.png" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+      <div class="logo-item">
+        <img src="Logo/GL-logo.svg">
+        <div class="logo-name">GroenLinks logo SVG</div>
+        <a href="Logo/GL-logo.svg" download="logo.svg" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+      <div class="logo-item">
+        <img src="Logo/GL-logo.png">
+        <div class="logo-name">GroenLinks logo PNG</div>
+        <a href="Logo/GL-logo.png" download="logo.png" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+      <div class="logo-item">
+        <img src="Logo/PvdA-logo.svg">
+        <div class="logo-name">PvdA logo SVG</div>
+        <a href="Logo/PvdA-logo.svg" download="logo.svg" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+      <div class="logo-item">
+        <img src="Logo/PvdA-logo.png">
+        <div class="logo-name">PvdA logo PNG</div>
+        <a href="Logo/PvdA-logo.png" download="logo.png" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <h3>Lettertypen</h3>
+    <div class="font-list">
+      <a href="https://www.monotype.com/fonts/helvetica-now">
+        <div class="font-item">
+          <span class="font-name" title="Te koop bij Monotype®">Helvetica Now</span>
+          <span class="material-icons logo-download">download</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Kleuren</h3>
+    <div class="color-list">
+      <div class="color-row">
+        <div class="color-circle" style="background:var(--color1)"></div>
+        <span>#01a747</span>
+        <span class="material-icons copy-icon">content_copy</span>
+      </div>
+      <div class="color-row">
+        <div class="color-circle" style="background:var(--color2)"></div>
+        <span>#d81f27</span>
+        <span class="material-icons copy-icon">content_copy</span>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+document.querySelectorAll(".copy-icon").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const text = btn.previousElementSibling.textContent.trim();
+
+    navigator.clipboard.writeText(text).then(() => {
+      const old = btn.textContent;
+      btn.textContent = "check";
+      btn.style.color = "#4caf50";
+      btn.style.transform = "scale(1.2)";
+
+      setTimeout(() => {
+        btn.textContent = old;
+        btn.style.color = "#333";
+        btn.style.transform = "scale(1)";
+      }, 1500);
+    });
+  });
+});
+window.addEventListener('message', function(event) {
+    if (event.data === 'close-iframe') {
+        const iframe = document.querySelector('iframe');
+        iframe.remove();
+    }
+});
+</script>
+</body>
+</html>

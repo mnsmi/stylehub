@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background: #f3f5f7;
+}
+
+.back-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1.1rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  z-index: 3;
+  transition: transform 0.2s ease;
+}
+
+.back-btn:hover {
+  transform: scale(0.98);
+}
+
+.back-btn img {
+  width: 15px;
+  height: 15px;
+  fill: white;
+}
+
+.back-btn b {
+  color: white;
+  margin-left: 15px;
+}
+
+.header-banner {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  filter: brightness(0.55);
+}
+
+.page-card {
+  position: relative;
+  z-index: 5;
+
+  background: white;
+  width: 95%;
+  max-width: 850px;
+  margin: -80px auto 40px auto;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.page-header img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.page-header h2 {
+  font-size: 1.9rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.download-full-btn {
+  font-family: 'Ubuntu';
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  transition: 0.25s;
+}
+
+.download-full-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+.folder-icon {
+  margin-right: 3px;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h3 {
+  border-left: 4px solid #888;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+.logos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.logo-item {
+  background: #f7f7f7;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.logo-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 0.6rem;
+}
+
+.logo-name {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.logo-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #ececec;
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #000;
+  text-decoration: none;
+}
+
+.logo-download:hover {
+  background: #dcdcdc;
+  text-decoration: none;
+}
+
+.font-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+
+.font-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-decoration: none;
+}
+
+span.font-name {
+  font-family: 'Ubuntu Mono', monospace;
+  color: rgb(0, 0, 0);
+  text-decoration: none !important;
+}
+
+.span.font-name:hover, 
+.span.font-name:focus,
+.span.font-name:active,
+.span.font-name:visited {
+  text-decoration: none !important;
+  color: black;
+}
+
+.color-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.color-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  background: #f7f7f7;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.color-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+
+.copy-icon {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tijdelijke Informatie GL-PVDA | Fusie nieuwe partij ProNL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .card {
+            position: relative;
+            width: 320px;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            cursor: pointer;
+            font-size: 24px;
+            line-height: 1;
+            color: #999;
+            background: none;
+            border: none;
+            transition: color 0.2s;
+        }
+
+        .close-btn:hover {
+            color: #333;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+            color: #000000;
+        }
+
+        p {
+            color: #000000;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card" id="infoCard">
+        <button class="close-btn" onclick="window.parent.postMessage('close-iframe', '*')">&times;</button>
+        <h2>Informatie</h2>
+        <p>   
+        GroenLinks en Partij van de Arbeid zijn druk bezig met het ontwikkelen van de huisstijl van hun nieuwe partij ProNL. Bekijk <a href="../ProNL/index.html" target="_top">hier</a> alvast de nieuwe huisstijl.
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>FVD | StyleHub</title>
+  <link rel="stylesheet" href="../../party.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="../icon.svg">
+  <style>
+    :root {
+      --color1: #a81815;
+      --color2: #ffffff;
+    }
+  </style>
+</head>
+<body>
+<a href="../../index.html">
+  <div class="back-btn">
+    <img src="../back.svg">
+    <b>Terug naar Home</b>
+  </div>
+</a>
+<div class="header-banner" style="background-image:url('banner.jpg');"></div>
+<div class="page-card">
+  <div class="page-header">
+    <img src="Logo/icon.png">
+    <h2>FVD | Forum voor Democratie</h2>
+  </div>
+  <a href="download.zip">
+    <button class="download-full-btn" style="background: var(--color1);">
+      <span class="material-icons">folder_zip</span>
+      Volledige huisstijlmap downloaden
+    </button>
+  </a>
+  <div class="section">
+    <h3>Logo’s</h3>
+    <div class="logos-grid">
+      <div class="logo-item">
+        <img src="Logo/logo.svg">
+        <div class="logo-name">Logo SVG volledig</div>
+        <a href="Logo/logo.svg" download="logo.svg" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+      <div class="logo-item">
+        <img src="Logo/logo.png">
+        <div class="logo-name">Logo PNG volledig</div>
+        <a href="Logo/logo.png" download="logo.png" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+      <div class="logo-item">
+        <img src="Logo/icon.svg">
+        <div class="logo-name">Icoon SVG</div>
+        <a href="Logo/icon.svg" download="icon.svg" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+      <div class="logo-item">
+        <img src="Logo/icon.png">
+        <div class="logo-name">Icoon PNG</div>
+        <a href="Logo/icon.png" download="icon.png" class="logo-download">
+          <span class="material-icons">download</span> Download
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <h3>Lettertypen</h3>
+    <div class="font-list">
+      <a href="https://www.typography.com/fonts/gotham/overview">
+        <div class="font-item">
+          <span class="font-name" title="Alleen betaald te verkrijgen via Typography">Gotham</span>
+          <span class="material-icons logo-download">download</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Kleuren</h3>
+    <div class="color-list">
+      <div class="color-row">
+        <div class="color-circle" style="background:var(--color1)"></div>
+        <span>#a81815</span>
+        <span class="material-icons copy-icon">content_copy</span>
+      </div>
+      <div class="color-row">
+        <div class="color-circle" style="background:var(--color2)"></div>
+        <span>#ffffff</span>
+        <span class="material-icons copy-icon">content_copy</span>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+document.querySelectorAll(".copy-icon").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const text = btn.previousElementSibling.textContent.trim();
+
+    navigator.clipboard.writeText(text).then(() => {
+      const old = btn.textContent;
+      btn.textContent = "check";
+      btn.style.color = "#4caf50";
+      btn.style.transform = "scale(1.2)";
+
+      setTimeout(() => {
+        btn.textContent = old;
+        btn.style.color = "#333";
+        btn.style.transform = "scale(1)";
+      }, 1500);
+    });
+  });
+});
+</script>
+</body>
+</html>
