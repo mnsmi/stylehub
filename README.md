@@ -1,13 +1,15 @@
-<a href="https://stylehub.mnsmi.me">
-  <img src="source/logo.svg" alt="StyleHub logo" width="30%">
-</a>
-<br>
-<b>StyleHub</b> is a web application that allows users to explore and compare the visual identities of all political parties in the Netherlands. From logos and color palettes to typography, StyleHub provides a centralized hub for understanding and analyzing party branding.
+![StyleHub Logo](source/logo.svg)
 
-## Screenshots
-<b>1 Homepage</b>
-<a href="https://stylehub.mnsmi.me"><img  src="source/screenshot1.png" alt="Screenshot Homepage" width="60%"></a>
-<br>
-<b>2 Party style page<b>
-<a href="https://stylehub.mnsmi.me"><img  src="source/screenshot2.png" alt="Screenshot Party style page" width="60%"></a>
+> De centrale plek voor alle Nederlandse politieke huisstijlen.
 
+
+### 📍 Wat is StyleHub?
+StyleHub is een onafhankelijk project waarin logo's, lettertypen en kleuren van politieke partijen zijn verzameld om makkelijk te kunnen weergeven en downloaden. Geen gedoe meer met zoeken; alles staat overzichtelijk bij elkaar.
+
+### 💡 Goed om te weten
+*   **Officiële Bronnen:** Alle logo's en kleuren komen rechtstreeks van de politieke partijen zelf.
+*   **Onafhankelijk:** Dit is een puur project zonder samenwerkingen met de Tweede Kamer of politieke partijen.
+*   **Rechten:** De eigendomsrechten van de logo's liggen altijd bij de partijen zelf.
+
+---
+*Gemaakt uit liefde voor design en overzicht.*

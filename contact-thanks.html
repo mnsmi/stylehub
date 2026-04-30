@@ -30,33 +30,5 @@
     <p>   
         We hebben je gegevens in goede orde ontvangen. We proberen zo snel mogelijk contact met je op te nemen.</p>
   </div>
-<script>
-document.querySelectorAll(".copy-icon").forEach(btn => {
-  btn.addEventListener("click", () => {
-    const text = btn.previousElementSibling.textContent.trim();
-
-    navigator.clipboard.writeText(text).then(() => {
-      const old = btn.textContent;
-      btn.textContent = "check";
-      btn.style.color = "#4caf50";
-      btn.style.transform = "scale(1.2)";
-
-      setTimeout(() => {
-        btn.textContent = old;
-        btn.style.color = "#333";
-        btn.style.transform = "scale(1)";
-      }, 1500);
-    });
-  });
-});
-</script>
-<script>
-document.querySelectorAll(".faq-question").forEach(btn => {
-  btn.addEventListener("click", () => {
-    const item = btn.parentElement;
-    item.classList.toggle("active");
-  });
-});
-</script>
 </body>
 </html>
